@@ -9,9 +9,17 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "hero-bg": 'url("/hero.png")',
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: '#D36834'
+      },
+      fontFamily: {
+        gillSans: ["GillSans", "sans-serif"],
+        peacemaker: ["PeaceMaker", "cursive"],
+      }
     },
   },
   plugins: [],
